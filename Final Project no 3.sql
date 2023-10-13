@@ -36,5 +36,3 @@ FROM
 			kategori
     ) as transaksi_2022	
     on transaksi_2021.kategori = transaksi_2022.kategori
---group BY
---	category
